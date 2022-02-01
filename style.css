@@ -1,0 +1,84 @@
+/*CSS Validi per tutti*/
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+}
+
+#contenitore{
+    width: 1200px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+}
+
+/*CSS Header*/
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 39%;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    margin-top: 80px;
+}
+
+#scritta{
+    color: #00dd00;
+}
+
+/*CSS Main*/
+main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+/*CSS Main: Bottoni Interattivi*/
+#bottoni{
+    background-color: #00dd00;
+    text-align: center;
+    padding: 15px;
+}
+
+/*CSS Main: Checkbox 3 Opzioni*/
+section{
+    margin-top: 25px;
+}
+
+main strong{
+    font-size: 20px;
+    margin: 5px;
+}
+
+section p{
+    line-height: 10%;
+}
+
+section div{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#ginolinea{
+    width: 30%;
+    background-color: lightseagreen;
+}
+
+#mikelinea{
+    width: 60%;
+    background-color: lightgreen;
+}
+
+#fedelinea{
+    width: 15%;
+    background-color: lightcoral;
+}
